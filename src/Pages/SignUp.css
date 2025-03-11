@@ -1,0 +1,35 @@
+.signup-container {
+  position: relative;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: url("../Assets/SignUp.png") no-repeat center center;
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-attachment: fixed; /* Keeps background fixed while scrolling */
+  opacity: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.signup-form-container {
+  position: relative;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  margin-right: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  left: 400px;
+}
+
